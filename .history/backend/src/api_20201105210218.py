@@ -347,7 +347,6 @@ def method_not_allowed(error):
         'message': 'Method Not Allowed'
     }), 405
 
-
 '''
 @TODO implement error handler for AuthError
     error handler should conform to general task above 

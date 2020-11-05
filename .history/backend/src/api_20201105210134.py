@@ -317,7 +317,6 @@ def not_found(error):
         'message': 'Resource Not Found'
     }), 404
 
-
 # Error Handler for (400 - Bad Request)
 @app.errorhandler(400)
 def bad_request(error):
@@ -326,7 +325,6 @@ def bad_request(error):
         'error': 400,
         'message': 'Bad Request'
     }), 400
-
 
 # Error Handler for (500 - Internal Server Error)
 @app.errorhandler(500)
@@ -337,7 +335,6 @@ def internal_server_error(error):
         'message': 'Internal Server Error'
     }), 500
 
-
 # Error Handler for (405 - Method Not Allowed)
 @app.errorhandler(405)
 def method_not_allowed(error):
@@ -346,7 +343,6 @@ def method_not_allowed(error):
         'error': 405,
         'message': 'Method Not Allowed'
     }), 405
-
 
 '''
 @TODO implement error handler for AuthError
